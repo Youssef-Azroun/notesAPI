@@ -47,8 +47,6 @@ function isValidInput(requestBody) {
 }
 
 function generateUniqueId() {
-    // Generate a unique ID as per your requirements
-    // You can use a library like uuid or a custom function
-    // For simplicity, we'll use a basic example here
+    
     return Date.now().toString();
 }
